@@ -1,2 +1,24 @@
-# HireSense-AI-Intelligent-Recruitment-Platform
-Built an intelligent recruitment platform leveraging IBM Watson for personality insights, Node.js for backend logic, and MongoDB for structured data management. This platform enables automated resume parsing, preliminary interviews via chatbot, and personalized candidate recommendations to streamline the recruitment process.
+# HireSense-AI
+
+An intelligent recruitment platform that automates resume parsing, personality analysis via IBM Watson, and smart candidate scoring.
+
+## Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- IBM Watson Personality Insights
+- PDF Resume Parsing
+
+## Setup
+
+```bash
+git clone https://github.com/yourusername/hiresense-ai.git
+cd hiresense-ai
+npm install
+cp .env.example .env
+# Add your MongoDB and IBM Watson credentials
+npm run dev
+```
+
+## API Endpoints
+- `POST /api/candidates/upload` – Upload resume (PDF)
