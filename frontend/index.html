@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HireSense-AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>HireSense-AI</h1>
+    <form id="resumeForm" enctype="multipart/form-data">
+      <input type="text" name="name" placeholder="Candidate Name" required />
+      <input type="email" name="email" placeholder="Candidate Email" required />
+      <input type="file" name="resume" accept=".pdf" required />
+      <button type="submit">Upload Resume</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
